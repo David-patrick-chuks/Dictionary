@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col py-10 px-20 justify-center h-screen bg-gray-400 items-center">
+    <div class="flex bg-yellow-50 md:w-1/2 p-3 items-center flex-col">
+      <h1 class="font-bold text-3xl mb-5">Dictionary App</h1>
+     <div class="w-full flex gap-5">
+        <input
+        id="inputword"
+        class="border-2  border-yellow-600 rounded-lg w-full"
+        type="text"
+        name="inputword"
+        name="inputword"
+      />
+      <button id="search" class="bg-yellow-500  hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-lg">
+        Search
+      </button>
+     </div>
+    </div>
+
+    <div id="result" class="bg-pink-200 w-full">
+
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
